@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog
 from PIL import Image
 
+
 class ImageCropper:
     def __init__(self):
         self.root = tk.Tk()
