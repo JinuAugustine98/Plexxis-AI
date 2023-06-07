@@ -1,7 +1,6 @@
 import tkinter as tk
-from tkinter import filedialog
-from PIL import Image
-
+from tkinter import filedialog, messagebox
+from PIL import Image, ImageTk
 
 class ImageCropper:
     def __init__(self):
@@ -57,7 +56,7 @@ class ImageCropper:
             cropped_image = image.crop(self.crop_coordinates)
             cropped_image.show()
         else:
-            tk.messagebox.showwarning("Warning", "Please open an image and select a crop region.")
+            messagebox.showwarning("Warning", "Please open an image and select a crop region.")
 
 if __name__ == "__main__":
     ImageCropper()
