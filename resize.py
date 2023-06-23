@@ -16,8 +16,8 @@ def resize_image(image_path, output_path, width, height):
         bw_image.save(output_path)
 
 # Example usage:
-input_image_path = "/Users/jinuaugustine/Downloads/page_2_600dpi.png"
-output_image_path = "Dataset/resized.png"
+input_image_path = "HighRes_Images/Final_Dataset/page_1.png"
+output_image_path = "Dataset/resized_2.png"
 target_width = 6000
 target_height = 6000
 
